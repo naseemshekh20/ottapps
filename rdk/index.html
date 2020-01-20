@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Youtube</title>
+   <style>
+      .page-template{
+         overflow: hidden;
+      }
+      #main-container{
+         position: absolute;
+         width: 1880px;
+         height:1030px;
+         background-color: white;
+         margin: 25px;
+
+      }
+      #header{
+         height:100;
+         width:1880px;
+      }
+      #iframe-video{
+         display: inline-block;
+         height:90%;
+         background-color:white;
+         overflow: hidden;
+         margin: 0 25px;
+         width: 1830px;
+      }
+   </style>
+   <script>
+      document.addEventListener('keydown',(e)=>{
+         switch(e.which){
+         case 8: history.back();break;
+    }
+         
+      })
+    
+    </script>
+</head>
+<body>
+   <div id='main-container'>
+      <div id="header">
+      </div>
+         <div id="iframe-video">
+        <iframe width="1835px" height="1000px" src="https://rdkcentral.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe> 
+         </div>
+   </div>
+</body>
+</html>
+
