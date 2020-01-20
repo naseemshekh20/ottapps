@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Tez</title>
+   <style>
+      body{
+         background: #111111;
+      }
+    .logo {
+    width: 150px;
+    float: left;
+    height: 135px;
+      }
+
+   .logo img {
+    width: 100%;
+    height: auto;
+   }
+   nav {
+    float: right;
+    width: 1680px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    font-size: 32px;
+    font-weight: 900;
+    text-decoration: unset !important;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    padding-top: 35px;
+    margin-left: 50px;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    font-size: 32px;
+    font-weight: 900;
+    text-decoration: unset !important;
+    margin-right: 40px;
+}
+    #main-container{
+       position: absolute;
+       width: 1880px;
+       height:1030px;
+       margin: 0 25px;
+
+    }
+    #header{
+       height:150px;
+       width:1830px;
+       padding: 25px 25px;
+       background: #000000;
+    }
+    #iframe-video{
+       display: inline-block;
+       height:900px;
+       margin-top: 5px;
+       background-color:white;
+       width: 1880px;
+    }
+ </style>
+ <script>
+    document.addEventListener('keydown',(e)=>{
+       switch(e.which){
+       case 8: history.back();break;
+  }
+       
+    })
+  
+  </script>
+</head>
+<body>
+    <div id='main-container'>
+ <div id="header">  
+    
+ <div class="logo"><img src="./static/tezlogo.png" height=""; width=""></div>
+                    <nav>
+                        <ul>
+                            
+                            
+                            
+                                <li class=""><a href="#" class="" style="color:#ffff00" title="न्यूज़"> न्यूज़ </a>                                         
+                                                     
+                                </li>
+                                                            <li class=""><a href="#" class="" title="सिनेमा"> सिनेमा </a>  
+                                </li>
+                                </li>
+                                                            <li class=""><a href="#" class="" title="वीडियो"> वीडियो </a>  
+                                </li>
+                                                            <li class=""><a href="#" class="" title="गैजेट्स"> गैजेट्स </a>  
+                                </li>
+                                                            <li class=""><a href="#" class="" title="दिल्ली&nbsp;चुनाव"> दिल्ली&nbsp;चुनाव </a>  
+                                </li>           
+                                                         
+                                                          
+                        </ul>
+                    </nav>
+                </div>
+            
+<div id="iframe-video">
+    <iframe width="1880px" height="900px" src="https://content.vidgyor.com/live/midroll/html/tez.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe> 
+     </div>
+</body>
+</html>
