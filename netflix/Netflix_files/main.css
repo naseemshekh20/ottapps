@@ -8,7 +8,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-#section-more-details {
+#section-more-details, #section-coming-soon {
     display: none;
 }
  html {
