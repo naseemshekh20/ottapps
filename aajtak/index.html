@@ -30,8 +30,11 @@
          case 8: history.back();break;
     }
       })
-      $('.headerLogo').css('display','none');
-      //document.getElementsByClassName('headerLogo').style.display='none';
+      
+      var elems = document.getElementsByClassName('headerLogo');
+         for (var i=0;i<elems.length;i+=1){
+         elems[i].style.display = 'none';
+         }
     </script>
 </head>
 <body>
