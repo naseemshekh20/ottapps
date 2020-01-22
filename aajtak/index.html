@@ -8,9 +8,7 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Aajtak</title>
    <style>
-      a.headerLogo {
-         display: none;
-      }
+      
       #main-container{
          position: absolute;
          width: 1240px;
@@ -41,9 +39,15 @@
       <div id="header">
       </div>
          <div id="iframe-video">
+            
             <img style = "position: absolute; top: 40px; left: 20px; width: 130px; height: auto; border: none;" src="aajtak.png" alt="Aajtak HD TV Channel">
          <iframe width="100%" height="650" src="https://www.aajtakhd.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>         
-         </div>
+         <style>
+      iframe body a.headerLogo {
+         display: none !important;
+      }
+            </style>
+      </div>
    </div>
 </body>
 </html>
